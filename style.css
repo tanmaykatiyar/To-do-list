@@ -1,0 +1,123 @@
+/*reset css*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D9B48FFF;
+    color: #2460A7FF;
+}
+
+/*Design head*/
+header {
+    text-align: center;
+    color: #D3D0CBFF;
+    background: #2E5266FF;
+    font-size: 36px;
+    padding: 1%;
+}
+
+/*Design main*/
+main {
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+    display: flex;
+    text-align: center;
+    font-size: xx-large;
+    list-style: none;
+}
+
+.content {
+    text-align: start;
+    padding: 5% 0;
+}
+
+.content>input {
+    padding-top: 20px;
+    margin-top: 3%;
+}
+
+/*Design add button*/
+.bt {
+
+    display: inline-block;
+    cursor: pointer;
+
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 10px;
+    color: #F95700FF;
+    background: #00A4CCFF;
+    border: #F95700FF 2px solid;
+}
+
+.bt:hover {
+    background-color: #F95700FF;
+    border: #00A4CCFF 2px solid;
+    color: #00A4CCFF;
+    transition: 1s;
+}
+
+input {
+    width: 90%;
+    height: 40PX;
+    font-weight: bold;
+    color: rgb(36, 35, 42);
+    font-size: 20px;
+    line-height: 25px;
+    min-height: 28px;
+    border-radius: 4px;
+    text-align: start;
+    padding: 8px 8px;
+    border: 2px solid transparent;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    background: rgb(251, 251, 251);
+    transition: all 0.5s ease 0s;
+}
+
+/*Design complete uncompleted elements*/
+.content>.title,
+.completed,
+.uncompleted {
+    font-size: 40px;
+    font-weight: bold;
+    width: max-content;
+}
+
+.uncompleted>li,
+.completed>li {
+    text-align: start;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.uncompleted>li {
+    color: #D85A7FFF;
+}
+
+.completed>li {
+    color: #ED2B33FF;
+}
+
+/*Design complete uncompleted button*/
+.uncompleted>li button,
+.completed>li button {
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    margin: 3%;
+    color: rgb(4, 4, 4);
+    color: #00A4CCFF;
+}
+
+.uncompleted>li button:hover,
+.completed>li button:hover {
+    color: #F95700FF;
+    transition: 1s;
+}
+
+/*End*/
